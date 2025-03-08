@@ -13,7 +13,8 @@
 # https://learnxinyminutes.com/docs/yaml/
 #
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
+# These are used to perso
+nalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
@@ -53,3 +54,19 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+nav_links:
+  - title: Home
+    url: /
+  - title: Gallery
+    url: /gallery
+  - title: About
+    url: /about
+  - title: Shop
+    url: /shop
+  - title: Contact
+    url: /contact
+
+keep_files:
+  - assets/images
+

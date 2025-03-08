@@ -1,0 +1,78 @@
+/* Make the image cover the full width */
+.full-width-image {
+    width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+}
+
+/* Fullscreen image that covers the left side 75% of the screen */
+.fullscreen-image {
+    width: 75vw; /* 75% of the viewport width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure it covers the area */
+    object-position: center left; /* Position it to the left */
+    position: fixed; /* Keep it fixed when scrolling */
+    top: 0; /* Stick to the top */
+    left: 0; /* Stick to the left edge */
+    z-index: 1; /* Ensure image stays behind the text */
+}
+
+/* "Art by Gabo" text positioned on the right */
+.art-by-gabo {
+    position: fixed; /* Keep it fixed while scrolling */
+    top: 50%; /* Center vertically */
+    right: 0; /* Stick it to the right side */
+    transform: translateY(-50%); /* Adjust to center vertically */
+    font-size: 36px; /* Set the font size */
+    color: white; /* White text color */
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a shadow for better visibility */
+    padding: 20px;
+    z-index: 2; /* Ensure the text is above the image */
+}
+
+/* Make the navbar position fixed at the top and display horizontally */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(49, 125, 224, 0.815); /* Semi-transparent blue background */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    z-index: 10; /* Ensure it stays on top of other elements */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    display: flex; /* Align items in a row */
+    gap: 30px; /* Add more space between the buttons */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 10px 20px; /* Increase padding for larger buttons */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text */
+    font-size: 20px; /* Increase font size */
+    font-weight: initial;
+    text-transform: capitalize; /* Capitalizes the first letter of each word */
+    letter-spacing: 2px; /* Space between letters for better appearance */
+}
+
+nav a:hover {
+    color: #f39c12; /* Change color when hovered */
+}
+
+/* Crop the top part of the image (if needed) */
+.cropped-image {
+    width: 100%;  /* Ensure the image fills the width */
+    height: 200vh;  /* Adjust height as needed to control the cropping */
+    object-fit: cover;  /* Ensure the image covers the area without distortion */
+    object-position: 0 66%;  /* Focus around 2/3rds down the image */
+}
