@@ -5,30 +5,30 @@ permalink: /gallery/
 ---
 
 <div class="gallery">
-    <div class="gallery-item"><img src="/ceramics_two_photos/Bulb_cups.jpg" alt="Bulb cups"></div>
-    <div class="gallery-item"><img src="/ceramics_two_photos/BW_cups.jpg" alt="Black and white cups"></div>
-    <div class="gallery-item"><img src="/ceramics_two_photos/Chatter_bowls.jpg" alt="Chatter bowls"></div>
-    <div class="gallery-item"><img src="/ceramics_two_photos/Chatter_bowls_green.jpg" alt="Green chatter bowls"></div>
-    <div class="gallery-item"><img src="/ceramics_two_photos/Crack_vase.jpg" alt="Crack vase"></div>
-    <div class="gallery-item"><img src="/ceramics_two_photos/Crackle_set.jpg" alt="Crackle set"></div>
-    <div class="gallery-item"><img src="/ceramics_two_photos/Four_bowl_set.jpg" alt="Four bowl set"></div>
-    <div class="gallery-item"><img src="/ceramics_two_photos/Horse_bowls.jpg" alt="Horse bowls"></div>
-    <div class="gallery-item"><img src="/ceramics_two_photos/Liv_bowl.jpg" alt="Liv bowl"></div>
-    <div class="gallery-item"><img src="/ceramics_two_photos/Rusty_cups.jpg" alt="Rusty cups"></div>
-    <div class="gallery-item"><img src="/ceramics_two_photos/Sand_set.jpg" alt="Sand set"></div>
-    <div class="gallery-item"><img src="/ceramics_two_photos/Smooth_bowl.jpg" alt="Smooth bowl"></div>
-    <div class="gallery-item"><img src="/ceramics_two_photos/Ugly_set.jpg" alt="Ugly set"></div>
-    <div class="gallery-item"><img src="/assets/images/Ceramics/Tall_bowls.JPG" alt="Tall bowls"></div>
-    <div class="gallery-item"><img src="/assets/images/Ceramics/Black_white_set.JPG" alt="Black and white set"></div>
-    <div class="gallery-item"><img src="/assets/images/Ceramics/Brown_bowl.JPG" alt="Brown bowl"></div>
-    <div class="gallery-item"><img src="/assets/images/Ceramics/Chatter_cup.JPG" alt="Chatter cup"></div>
-    <div class="gallery-item"><img src="/assets/images/Ceramics/Flower_plate.JPG" alt="Flower plate"></div>
-    <div class="gallery-item"><img src="/assets/images/Ceramics/Horse_vase.JPG" alt="Horse vase"></div>
-    <div class="gallery-item"><img src="/assets/images/Ceramics/Na_cup.JPG" alt="Na cup"></div>
-    <div class="gallery-item"><img src="/assets/images/Ceramics/Tea_pot.JPG" alt="Tea pot"></div>
-    <div class="gallery-item"><img src="/assets/images/Ceramics/Texture_bowl.JPG" alt="Texture bowl"></div>
-    <div class="gallery-item"><img src="/assets/images/Ceramics/Twovase2.JPG" alt="Two vases"></div>
-    <div class="gallery-item"><img src="/ceramics_two_photos/Brides_cups.jpg" alt="Brides cups"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Bulb_cups.jpg" alt="Bulb cups" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/assets/images/Ceramics/Black_white_set.JPG" alt="Black and white set" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Chatter_bowls.jpg" alt="Chatter bowls" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Chatter_bowls_green.jpg" alt="Green chatter bowls" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Crack_vase.jpg" alt="Crack vase" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Crackle_set.jpg" alt="Crackle set" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Four_bowl_set.jpg" alt="Four bowl set" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Horse_bowls.jpg" alt="Horse bowls" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Liv_bowl.jpg" alt="Liv bowl" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Rusty_cups.jpg" alt="Rusty cups" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Sand_set.jpg" alt="Sand set" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Smooth_bowl.jpg" alt="Smooth bowl" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Ugly_set.jpg" alt="Ugly set" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Brides_cups.jpg" alt="Brides cups" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/assets/images/Ceramics/Na_cup.JPG" alt="Na cup" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/assets/images/Ceramics/Tall_bowls.JPG" alt="Tall bowls" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/assets/images/Ceramics/Brown_bowl.JPG" alt="Brown bowl" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/assets/images/Ceramics/Chatter_cup.JPG" alt="Chatter cup" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/assets/images/Ceramics/Flower_plate.JPG" alt="Flower plate" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/assets/images/Ceramics/Horse_vase.JPG" alt="Horse vase" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/assets/images/Ceramics/Tea_pot.JPG" alt="Tea pot" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/assets/images/Ceramics/Texture_bowl.JPG" alt="Texture bowl" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/assets/images/Ceramics/Twovase2.JPG" alt="Two vases" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Chatter_cup_green.jpeg" alt="Chatter cup" style="object-fit: cover; width: 100%; height: 100%;"></div>
 </div>
 
 <style>
