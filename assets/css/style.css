@@ -37,7 +37,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(49, 125, 224, 0.815); /* Semi-transparent blue background */
+    background-color: black;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -47,22 +47,22 @@ nav {
 nav ul {
     list-style-type: none; /* Remove default list style */
     display: flex; /* Align items in a row */
-    gap: 30px; /* Add more space between the buttons */
+    gap: 20px; /* Add more space between the buttons */
     margin: 0;
     padding: 0;
 }
 
 nav li {
-    padding: 10px 20px; /* Increase padding for larger buttons */
+    padding: 5px 5px; /* Increase padding for larger buttons */
 }
 
 nav a {
     text-decoration: none; /* Remove underline */
     color: white; /* White text */
-    font-size: 20px; /* Increase font size */
+    font-size: 15px; /* Increase font size */
     font-weight: initial;
     text-transform: capitalize; /* Capitalizes the first letter of each word */
-    letter-spacing: 2px; /* Space between letters for better appearance */
+    letter-spacing: 1px; /* Space between letters for better appearance */
 }
 
 nav a:hover {
