@@ -34,7 +34,7 @@ permalink: /gallery/
 <style>
 .gallery {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 5px;
 }
 .gallery-item {
@@ -74,7 +74,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
 </script>
 
 <style>
