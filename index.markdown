@@ -11,11 +11,7 @@ layout: default
     Art<br>by<br>Gabo
 </a>
 
-<div style="display: flex; justify-content: center; align-items: center; height: 150vh;">
-    <img src="/assets/images/Ceramics/Horse_vase.JPG" alt="Horse_vase" class="cropped-image" style="max-width: 100%; height: auto;">
+<div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+    <img src="/assets/images/Ceramics/Horse_vase.JPG" alt="Horse_vase" class="cropped-image" style="max-width: 100%; height: auto; object-fit: cover; object-position: 0 50%;">
 </div>
-
-
-
-
 
