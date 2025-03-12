@@ -29,6 +29,7 @@ permalink: /gallery/
     <div class="gallery-item"><img src="/assets/images/Ceramics/Texture_bowl.JPG" alt="Texture bowl" style="object-fit: cover; width: 100%; height: 100%;"></div>
     <div class="gallery-item"><img src="/assets/images/Ceramics/Twovase2.JPG" alt="Two vases" style="object-fit: cover; width: 100%; height: 100%;"></div>
     <div class="gallery-item"><img src="/ceramics_two_photos/Chatter_cup_green.jpeg" alt="Chatter cup" style="object-fit: cover; width: 100%; height: 100%;"></div>
+    <div class="gallery-item"><img src="/ceramics_two_photos/Ginkgo.jpg" alt="Chatter cup" style="object-fit: cover; width: 100%; height: 100%;"></div>
 </div>
 
 <style>
@@ -97,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
     position: absolute;
     top: 20px;
     right: 20px;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     cursor: pointer;
 }

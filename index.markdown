@@ -5,13 +5,51 @@
 layout: default
 ---
 
----
+<style>
+    body {
+        margin: 0;
+        overflow: hidden;
+        background: black;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        position: relative;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .text {
+        font-size: 15vw;
+        font-weight: bold;
+        text-align: center;
+        background: url('/ceramics_two_photos/Ginkgo.jpg') no-repeat center center;
+        background-size: cover;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+        transition: font-size 0.5s ease;
+        cursor: pointer;
+    }
+</style>
 
-<a href="{{ '/gallery/' | relative_url }}" style="text-align: right; font-size: 40px; position: fixed; width: 90%; top: 20%; transform: translateY(-50%); color: white; text-decoration: underline; text-shadow: 2px 2px 4px #000000;">
-    Art<br>by<br>Gabo
-</a>
+<script>
+    window.addEventListener('scroll', function() {
+        const textElement = document.querySelector('.text');
+        const scrollPosition = window.scrollY;
+        const newFontSize = 10 + scrollPosition / 10;
+        textElement.style.fontSize = newFontSize + 'vw';
+    });
 
-<div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
-    <img src="/assets/images/Ceramics/Horse_vase.JPG" alt="Horse_vase" class="cropped-image" style="max-width: 100%; height: auto; object-fit: cover; object-position: 0 50%;">
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('.text').addEventListener('click', function() {
+            window.location.href = 'gallery';
+        });
+    });
+</script>
+
+<div class="container">
+    <div class="text">Art by Gabo</div>
 </div>
-
